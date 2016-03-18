@@ -1,0 +1,31 @@
+/*LIST STYLE*/
+
+ul {
+	list-style-type: none;
+}
+
+li.bio-hed {
+	color:#blue;
+	font-weight: bold;
+}
+
+/*Q&A STYLES*/
+
+p.question {
+	font-family: Georgia, serif;
+	font-weight: bold;
+}
+
+p.answer {
+	font-family: Georgia, serif;}
+
+/*HEADERS*/
+
+h2.race {
+	font-size:1.3em;
+	background-color: #212121;
+	color:white;
+	padding: .5em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
