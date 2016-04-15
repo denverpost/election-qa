@@ -9,7 +9,35 @@ li.bio-hed {
 	font-weight: bold;
 }
 
+/*LINKS*/
+
+/*a:link,
+a:visited,
+a:hover,
+a:active {
+	color:#003459;
+	text-decoration: none;
+	border-style:dotted;
+	border-top-style:none;
+	border-right-style: none;
+	border-left-style: none;
+	border-width: 1px;
+}*/
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color:#003459;
+}
+
+
+
 /*Q&A STYLES*/
+
+p {
+	font-family: 'Source Serif Pro', Georgia, serif;
+}
 
 p.question {
 	font-family: Georgia, serif;
@@ -21,11 +49,46 @@ p.answer {
 
 /*HEADERS*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Source Serif Pro', Georgia, serif;
+	font-weight:600;
+}
+
+.toplabel {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: #8E1024;
+}
+
+a#toplabel {
+	color: #ffffff;
+}
+
 h2.race {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	font-size:1.3em;
 	background-color: #212121;
 	color:white;
 	padding: .5em;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+body {
+	background-color: #003459;
+background-image: url("http://extras.denverpost.com/qa/img/cardboard-flat.png");
+
+}
+
+/*COLORS*/
+
+.top-bar, .top-bar ul {
+	background-color: #8E1024;
+	background-image: url("http://extras.denverpost.com/qa/img/cardboard-flat.png");
 }
